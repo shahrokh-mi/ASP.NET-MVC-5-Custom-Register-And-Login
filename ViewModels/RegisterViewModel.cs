@@ -7,7 +7,7 @@ namespace ProjectName.ViewModels
     {
         
         [Required(ErrorMessage = "This Field Is Required")]
-        [Remote("UserExists", "Home", ErrorMessage = "Username Already In Use")]
+        [Remote("UserExists", "Account", ErrorMessage = "Username Already In Use")]
         public string Username { get; set; }
 
         [Required(ErrorMessage = "This Field Is Required")]
