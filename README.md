@@ -20,5 +20,5 @@ Currently contains Login and Register Views which are basically just forms to be
 ### 4- ViewModels Directory
 
 Currenty contains LoginViewModel and RegisterViewModel.
-The LoginViewModel which has username and password properties is the viewmodel which we send to the Login view. 
+The LoginViewModel which has username and password properties is the viewmodel which we send to the Login view.
 The RegisterViewModel has some other properties other than username and password like confirm password which is going to be compared to the password field.
